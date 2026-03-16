@@ -6,7 +6,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 ## 🌐 Live Website
 ([Portfolio wensite live:](https://yyogendra121.github.io/Portfoliowebsite/)])
 
-Example:
+open now:
 [https://yugdevchhetri.com](https://yyogendra121.github.io/Portfoliowebsite/)
 
 ## 📌 Features
