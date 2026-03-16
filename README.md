@@ -4,7 +4,7 @@
 This is my personal portfolio website where I showcase my projects, skills, and background in technology. The website highlights my work in IoT, programming, and web development.
 
 ## 🌐 Live Website
-([Portfolio wensite live:](https://yyogendra121.github.io/Portfoliowebsite/)])
+([Portfolio website live:](https://yyogendra121.github.io/Portfoliowebsite/)])
 
 open now:
 [https://yugdevchhetri.com](https://yyogendra121.github.io/Portfoliowebsite/)
