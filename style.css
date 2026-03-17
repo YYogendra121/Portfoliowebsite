@@ -678,3 +678,22 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+    .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+}
