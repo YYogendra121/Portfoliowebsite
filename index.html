@@ -121,8 +121,7 @@
             </div>
         </div>
     </section>
-  <!-- Project 1 -->
-   <section id="projects" class="projects-section">
+<section id="projects" class="projects-section">
   <h1 class="section-title">Projects</h1>
 
   <!-- Project 1 -->
@@ -137,6 +136,7 @@
     <div class="tech-stack">
       <span>Arduino</span><span>GPS Module</span><span>Sensors</span><span>IoT</span>
     </div>
+    <a href="https://your-live-link-1.com" target="_blank" class="project-link">Live Demo</a>
   </div>
 
   <!-- Project 2 -->
@@ -151,6 +151,7 @@
     <div class="tech-stack">
       <span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>Machine Learning</span>
     </div>
+    <a href="https://your-live-link-2.com" target="_blank" class="project-link">Live Demo</a>
   </div>
 
   <!-- Project 3 -->
@@ -165,6 +166,7 @@
     <div class="tech-stack">
       <span>Blockchain</span><span>Ethereum</span><span>Smart Contracts</span><span>NFTs</span>
     </div>
+    <a href="https://your-live-link-3.com" target="_blank" class="project-link">Live Demo</a>
   </div>
 
   <!-- Project 4 -->
@@ -179,37 +181,38 @@
     <div class="tech-stack">
       <span>Ultrasonic Sensors</span><span>Arduino</span><span>Control Systems</span>
     </div>
+    <a href="https://your-live-link-4.com" target="_blank" class="project-link">Live Demo</a>
   </div>
+
 </section>
 
-<!-- Portfolio Modern CSS -->
 <style>
 .projects-section {
   padding: 60px 20px;
-  background-color: #f8f9fc;
+  background-color: #0a0a0a;
 }
 .section-title {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
-  color: #0d47a1;
+  color: #ff3b3f;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
 
 .project-card {
-  background: linear-gradient(135deg, #1a73e8, #4fc3f7);
+  background: linear-gradient(135deg, #1a1a1a, #2b0000);
   border-radius: 20px;
   padding: 30px;
   margin: 25px auto;
   max-width: 900px;
-  color: white;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  color: #ffffff;
+  box-shadow: 0 12px 30px rgba(255,0,0,0.3);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .project-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+  transform: translateY(-12px);
+  box-shadow: 0 18px 40px rgba(255,59,63,0.5);
 }
 .project-header {
   display: flex;
@@ -220,27 +223,47 @@
 .project-icon {
   width: 45px;
   height: 45px;
+  filter: invert(100%);
 }
 .project-title {
   font-size: 2rem;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  color: #ff3b3f;
 }
 .project-description {
   font-size: 1rem;
   margin-bottom: 15px;
   line-height: 1.6;
+  color: #fff;
 }
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 15px;
 }
 .tech-stack span {
-  background-color: rgba(255,255,255,0.2);
+  background-color: #ff3b3f;
+  color: #ffffff;
   padding: 5px 12px;
   border-radius: 12px;
   font-size: 0.9rem;
+  font-weight: 500;
+}
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff3b3f;
+  border: 2px solid #ff3b3f;
+  padding: 8px 18px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.project-link:hover {
+  background-color: #ff3b3f;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .project-card {
@@ -254,7 +277,6 @@
     height: 35px;
   }
 }
-</style>
 </style>
     <!-- skills section start -->
     <section class="skills" id="skills">
