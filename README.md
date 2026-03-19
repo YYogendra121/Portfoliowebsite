@@ -1,80 +1,96 @@
-# Personal Portfolio Website
+# 👨‍💻 Yogendra Singh | Portfolio
 
-## 👋 About
-This is my personal portfolio website where I showcase my projects, skills, and background in technology. The website highlights my work in IoT, programming, and web development.
+## 🚀 About Me
+I am a passionate **Frontend Developer** and **Project Builder (IoT | AI/ML | Embedded Systems)** focused on creating modern web experiences and innovative real-world solutions.
 
-## 🌐 Live Website
-([Portfolio website live:](https://yyogendra121.github.io/Portfoliowebsite/)])
+I specialize in building projects using:
+**HTML, CSS, JavaScript, Arduino, Sensors, IoT, AI/ML, and Embedded Systems**
 
-open now:
-[https://yugdevchhetri.com](https://yyogendra121.github.io/Portfoliowebsite/)
+---
 
-## 📌 Features
-- Responsive portfolio design
-- Projects showcase
-- About Me section
-- Contact information
-- Modern and clean UI
+## 🌐 Portfolio Website
+This is my personal portfolio website where I showcase:
+- My skills and services
+- Real-world projects
+- Achievements and experience
+- Contact details
 
-## 🛠️ Technologies Used
-- HTML
-- CSS
+---
+
+## 🛠️ Tech Stack
+**Frontend:**
+- HTML5
+- CSS3
 - JavaScript
-- Git & GitHub
 
-## 🚀 Projects Included
-- **GPS-based Highwat Hazard Detection system Using Arduino**  
-# GPS-Based Highway Hazard Detection System Using Arduino
+**Programming & Tools:**
+- Python
+- Arduino
+- IoT Systems
 
-## 📌 Project Description
+**Technologies:**
+- AI / Machine Learning
+- Embedded Systems
+- Sensors Integration
 
-The **GPS-Based Highway Hazard Detection System**
-The GPS-Based Highway Hazard Detection System is designed to detect dangerous conditions on highways and send location information using GPS.
-The system uses Arduino and sensors to detect hazards and helps drivers or authorities respond quickly to prevent accidents.
+---
 
-## ⚙️ Features
-* 📍 Real-time GPS location tracking
-* ⚠️ Hazard detection using sensors
-* 📡 Data transmission for alerts
-* 🚗 Improves road safety on highways
+## 💼 Services
+- 🌐 Frontend Web Development  
+- 🎨 UI/UX Web Design  
+- ⚙️ Project Builder (IoT, Arduino, AI/ML)  
 
-## 🛠️ Technologies Used
-* Arduino
-* GPS Module
-* Sensors
-* IoT (optional)
-* Embedded C / Arduino IDE
+I can build complete projects using:
+**Arduino, Sensors, IoT, AI/ML, Embedded Systems, and Smart Automation Systems**
 
-## 🖼️ Project Preview
+---
 
-![Project Image](images/project.jpg)
+## 📂 Projects
 
-## 🔧 Hardware Components
+### 🔹 GPS-Based Highway Hazard Detection System
+Real-time hazard detection using GPS and IoT to improve road safety.
 
-* Arduino Uno
-* GPS Module (NEO-6M)
-* Ultrasonic / Hazard Detection Sensor
-* GSM Module (optional)
-* Power Supply
+### 🔹 AI-Powered Potato Leaf Disease Detection
+AI-based system to detect plant diseases and prevent crop loss.
 
-## 🚀 How It Works
+### 🔹 Secure Digital Certificate System (Blockchain & NFTs)
+Blockchain-based solution for secure and tamper-proof digital certificates.
 
-1. Sensors detect obstacles or hazardous conditions.
-2. Arduino processes the sensor data.
-3. GPS module captures the exact location.
-4. The system sends the hazard location for monitoring.
+### 🔹 Ultrasonic Vibration-Based Structure Formation System
+Uses ultrasonic technology for precision structure formation and automation.
 
-## 📂 Installation
-If you want to run this project locally:
+---
 
-```bash
-git clone https://github.com/yourusername/your-repository-name.git
+## 🏆 Achievements
+- 🏅 AceHack 5.0 Organiser  
+- 📜 NPTEL Certifications (5)  
+- 📺 Featured on Doordarshan Rajasthan – Albelo Rajasthan  
+- 🏐 Volleyball Winner (Trophy & Certificate)  
 
-✅ **Tip:** Since you are building a portfolio and already have the **Smart Health Monitoring System** project, adding screenshots and a live website link will make your GitHub look more professional.
+---
 
-If you want, I can also help you:
-- ⭐ Make a **much more professional GitHub README**
-- 🎨 Add **badges, icons, and images**
-- 📊 Create a **GitHub profile README** that looks like a developer portfolio.
+## 🔗 Live Portfolio
+👉 https://your-portfolio-link.com  
 
+---
 
+## 📄 Resume
+👉 Yogendra_Singh_Resume.pdf  
+
+---
+
+## 📬 Contact
+- 📧 Email: yogeekhadka8@gmail.com  
+- 📍 Location: Nepal  
+- 💬 WhatsApp: https://wa.me/919636560982  
+
+---
+
+## ⭐ Support
+If you like my work, consider giving this repository a ⭐
+
+---
+
+## 👤 Author
+**Yogendra Singh**  
+Frontend Developer | IoT Project Builder | AI/ML Enthusiast
