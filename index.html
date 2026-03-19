@@ -127,9 +127,9 @@
   <h1 class="section-title">Projects</h1>
 
   <!-- Project 1 -->
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('https://your-live-link-1.com','_blank')">
     <div class="project-header">
-      <img src="https://img.icons8.com/ios/50/ff3b3f/navigation.png" class="project-icon" alt="GPS Icon"/>
+      <img src="https://img.icons8.com/ios/50/ffffff/navigation.png" class="project-icon" alt="GPS Icon"/>
       <h2 class="project-title">GPS-Based Highway Hazard Detection</h2>
     </div>
     <p class="project-description">
@@ -142,9 +142,9 @@
   </div>
 
   <!-- Project 2 -->
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('https://your-live-link-2.com','_blank')">
     <div class="project-header">
-      <img src="https://img.icons8.com/ios/50/ff3b3f/artificial-intelligence.png" class="project-icon" alt="AI Icon"/>
+      <img src="https://img.icons8.com/ios/50/ffffff/artificial-intelligence.png" class="project-icon" alt="AI Icon"/>
       <h2 class="project-title">AI-Powered Potato Leaf Disease Detection</h2>
     </div>
     <p class="project-description">
@@ -157,9 +157,9 @@
   </div>
 
   <!-- Project 3 -->
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('https://your-live-link-3.com','_blank')">
     <div class="project-header">
-      <img src="https://img.icons8.com/ios/50/ff3b3f/secure.png" class="project-icon" alt="Blockchain Icon"/>
+      <img src="https://img.icons8.com/ios/50/ffffff/secure.png" class="project-icon" alt="Blockchain Icon"/>
       <h2 class="project-title">Secure Digital Certificate System (Blockchain & NFTs)</h2>
     </div>
     <p class="project-description">
@@ -172,9 +172,9 @@
   </div>
 
   <!-- Project 4 -->
-  <div class="project-card">
+  <div class="project-card" onclick="window.open('https://your-live-link-4.com','_blank')">
     <div class="project-header">
-      <img src="https://img.icons8.com/ios/50/ff3b3f/ultrasound.png" class="project-icon" alt="Ultrasound Icon"/>
+      <img src="https://img.icons8.com/ios/50/ffffff/ultrasound.png" class="project-icon" alt="Ultrasound Icon"/>
       <h2 class="project-title">Ultrasonic Vibration-Based Structure System</h2>
     </div>
     <p class="project-description">
@@ -197,7 +197,7 @@
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
-  color: #ff3b3f;
+  color: #ffffff;
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
 }
@@ -211,12 +211,21 @@
   margin: 20px auto;
   max-width: 900px;
   color: #ffffff;
-  transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .project-card:hover {
-  transform: translateY(-8px); /* slight lift */
+  background-color: #ff3b3f; /* red background on hover */
+  border-left: 4px solid #ffffff;
+  transform: translateY(-5px);
+}
+.project-card:hover .project-title,
+.project-card:hover .project-description,
+.project-card:hover .tech-stack span {
+  color: #ffffff;
 }
 
+/* Project header */
 .project-header {
   display: flex;
   align-items: center;
@@ -226,12 +235,13 @@
 .project-icon {
   width: 50px;
   height: 50px;
+  filter: invert(100%);
 }
 .project-title {
   font-size: 1.9rem;
   margin: 0;
   font-weight: 700;
-  color: #ff3b3f;
+  color: #ffffff; /* white title */
 }
 .project-description {
   font-size: 1rem;
@@ -266,8 +276,8 @@
   transition: all 0.3s ease;
 }
 .project-link:hover {
-  background-color: #ff3b3f;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #ff3b3f;
 }
 
 /* Responsive */
