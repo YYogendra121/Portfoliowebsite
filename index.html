@@ -139,8 +139,30 @@
   </div>
 
   <!-- Project 2 -->
+<section id="projects" class="projects-section">
+  <h1 class="section-title">Projects</h1>
+
+  <!-- Project 1 -->
   <div class="project-card">
-    <h2 class="project-title">AI-Powered Potato Leaf Disease Detection</h2>
+    <div class="project-header">
+      <span class="project-icon">🛰️</span>
+      <h2 class="project-title">GPS-Based Highway Hazard Detection System</h2>
+    </div>
+    <p class="project-description">
+      Developed a system to detect hazards on highways in real-time using GPS and IoT technology. Alerts drivers to reduce accidents and improve safety.
+    </p>
+    <ul class="project-features">
+      <li><strong>Technologies:</strong> Arduino, GPS Module, Sensors, IoT</li>
+      <li><strong>Features:</strong> Real-time hazard detection, Driver alerts, GPS tracking</li>
+    </ul>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <div class="project-header">
+      <span class="project-icon">🌱</span>
+      <h2 class="project-title">AI-Powered Potato Leaf Disease Detection</h2>
+    </div>
     <p class="project-description">
       Created an AI model to identify diseases in potato leaves from images. Helps farmers take timely action to prevent crop loss.
     </p>
@@ -152,7 +174,10 @@
 
   <!-- Project 3 -->
   <div class="project-card">
-    <h2 class="project-title">Secure Digital Certificate System Using Blockchain & NFTs</h2>
+    <div class="project-header">
+      <span class="project-icon">🔒</span>
+      <h2 class="project-title">Secure Digital Certificate System Using Blockchain & NFTs</h2>
+    </div>
     <p class="project-description">
       Built a blockchain-based platform to issue and verify digital certificates as NFTs. Ensures authenticity, security, and tamper-proof credentials.
     </p>
@@ -164,7 +189,10 @@
 
   <!-- Project 4 -->
   <div class="project-card">
-    <h2 class="project-title">Ultrasonic Vibration-Based Structure Formation System</h2>
+    <div class="project-header">
+      <span class="project-icon">🔊</span>
+      <h2 class="project-title">Ultrasonic Vibration-Based Structure Formation System</h2>
+    </div>
     <p class="project-description">
       Developed a system to manipulate and assemble structures using ultrasonic vibrations for precision engineering and experimental applications.
     </p>
@@ -173,54 +201,68 @@
       <li><strong>Features:</strong> Precision structure formation, Ultrasonic vibration control, Experimental setup</li>
     </ul>
   </div>
-
 </section>
 
-<!-- CSS (same as before) -->
+<!-- CSS for Modern Card Design -->
 <style>
 .projects-section {
   padding: 50px 20px;
-  background-color: #f4f4f4;
+  background-color: #f0f4f8;
 }
-
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #333;
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  color: #1a73e8;
+  font-weight: bold;
 }
-
 .project-card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 25px;
+  background: linear-gradient(145deg, #ffffff, #e6f0ff);
+  border-radius: 15px;
+  padding: 30px;
   margin: 20px auto;
-  max-width: 800px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 850px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
-
-.project-title {
-  font-size: 1.8rem;
-  color: #1a73e8;
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 15px;
 }
-
+.project-icon {
+  font-size: 2.5rem;
+}
+.project-title {
+  font-size: 1.9rem;
+  color: #0d47a1;
+  margin: 0;
+}
 .project-description {
   font-size: 1rem;
-  color: #555;
+  color: #333;
   margin-bottom: 15px;
 }
-
 .project-features li {
   margin-bottom: 8px;
   font-size: 0.95rem;
   color: #444;
+}
+@media (max-width: 768px) {
+  .project-card {
+    padding: 20px;
+  }
+  .project-title {
+    font-size: 1.5rem;
+  }
+  .project-icon {
+    font-size: 2rem;
+  }
 }
 </style>
     
