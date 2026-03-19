@@ -68,7 +68,7 @@
                         to deliver impactful results.
 
                     </p>
-                    <!-- Download CV Button -->
+                    <!-- Download resume Button -->
 <a href="Yogendra_Singh_Resume.pdf" target="_blank" class="resume-btn">
   View Resume
 </a>
@@ -159,7 +159,7 @@
   <!-- Project 3 -->
   <div class="project-card" onclick="window.open('https://your-live-link-3.com','_blank')">
     <div class="project-header">
-      <img src="https://img.icons8.com/ios/50/ffffff/secure.png" class="project-icon" alt="Blockchain Icon"/>
+      <img src="https://img.icons8.com/ios/50/ffffff/blockchain.png" class="project-icon" alt="Blockchain Icon"/>
       <h2 class="project-title">Secure Digital Certificate System (Blockchain & NFTs)</h2>
     </div>
     <p class="project-description">
@@ -212,12 +212,14 @@
   max-width: 900px;
   color: #ffffff;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px rgba(255, 59, 63, 0.2); /* subtle glow */
 }
 .project-card:hover {
-  background-color: #ff3b3f; /* red background on hover */
+  background-color: #ff3b3f; /* red background */
   border-left: 4px solid #ffffff;
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 25px rgba(255, 59, 63, 0.4); /* stronger glow */
 }
 .project-card:hover .project-title,
 .project-card:hover .project-description,
@@ -269,6 +271,7 @@
   display: inline-block;
   text-decoration: none;
   color: #ff3b3f;
+  background-color: #ffffff; /* white background always visible */
   border: 2px solid #ff3b3f;
   padding: 8px 18px;
   border-radius: 12px;
@@ -276,8 +279,8 @@
   transition: all 0.3s ease;
 }
 .project-link:hover {
-  background-color: #ffffff;
-  color: #ff3b3f;
+  background-color: #ff3b3f;
+  color: #ffffff;
 }
 
 /* Responsive */
